@@ -1,0 +1,18 @@
+.header {
+    border:1px solid red;
+    color: white;
+    background-color: $off-black;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+}
+
+// BEM
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $off-decent;
+    font-size: $m-size;
+}
