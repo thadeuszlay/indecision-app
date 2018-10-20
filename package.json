@@ -7,7 +7,7 @@
     "build": "webpack",
     "dev-server": "webpack-dev-server",
     "predeploy": "npm run build",
-    "deply": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "main": "index.js",
   "author": "ThinkPad",
