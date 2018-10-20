@@ -2,11 +2,10 @@
     border:1px solid red;
     color: white;
     background-color: $off-black;
-    margin-bottom: $xl-size;
     padding: $m-size 0;
+    margin-bottom: $s-size;
 }
 
-// BEM
 .header__title {
     font-size: $l-size;
     margin: 0;
@@ -15,4 +14,13 @@
 .header__subtitle {
     color: $off-decent;
     font-size: $m-size;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $xl-size;
+    }
+    .add-option__input {
+        margin: 0 $m-size 0 0;
+    }
 }
